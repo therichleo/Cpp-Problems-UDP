@@ -11,8 +11,3 @@ int main(){
     int nuevo_numero = numero/2;
     cout<<"La mitad de su numero es: " << nuevo_numero << endl;
 }
-
-/*
-2. Pida al usuario dos decimales y muestre por pantalla el resultado
-de la suma, resta, división y producto de los números.
-*/
