@@ -8,7 +8,7 @@ using namespace std;
 int main(){
     float Decimal_uno, Decimal_dos;
     cout<<"INGRESE DOS DECIMALES: " ; cin>>Decimal_uno>>Decimal_dos;
-    int suma, resta, division, producto;
+    float suma, resta, division, producto;
     suma = Decimal_uno + Decimal_dos;
     resta = Decimal_uno - Decimal_dos;
     division = Decimal_uno/Decimal_dos;
