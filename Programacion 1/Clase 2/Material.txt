@@ -1,0 +1,38 @@
+1.
+La disco "Sala people" tiene un nuevo normativo en el que a cada
+DJ se le pagará un bonus según el género músical con el que
+trabaje. Programe una calculadora dada la siguiente tabla:
+Genero -> bonus
+Reggaeton -> 3%
+Old School -> 6%
+Cumbia -> 4%
+
+2. La central espacial de Marcianos-Eke encontró una forma de
+identificar las luces del espacio como posibles planetas. Si una luz
+emana radiación de color azul, ésta puede ser de un planeta
+habitable. Si es de cualquier otro color, se consideraría no habitable.
+Cree un programa que permita identificar las luces dependiendo su
+color, y que pregunté por un string para poder dar nombre a esta luz,
+si es que resulta ser planeta.
+
+3. Un programa de búsqueda de talentos patrocinado por la NBA
+está buscándo al estudiante más alto del curso, para propósitos
+desconocidos. Necesitan un programa que pregunte por la estatura
+de dos alumnos, las compare y decida cuál es la mayor.
+Cree este programa e imprima la diferencia junto al nombre del
+estudiante. Por ejemplo "Juan es más alto que Diego por 12cm".
+
+4. Se tiene una calculadora de distancias, la cuál tiene 2 métodos de
+operar:
+-Se ingresa una distancia A en metros.
+-Se ingresan dos puntos en formato (X,Y), se calcula la distancia y
+la entrega en metros.
+Realice un programa que consulte por dos distancias, ocupando
+ambos métodos mencionados, y luego imprima por pantalla qué
+distancia es más corta.
+
+4.1. Se sabe que una persona alta, media y baja caminan en
+promedio a una velocidad de 6km/h, 5km/h, 4km/h, respectivamente.
+Utilizando el programa anterior, además de preguntar por ambas
+distancias, pregunte también por la estatura de la persona definida
+como alta, media o baja y calcule quién llegaría más rápido
