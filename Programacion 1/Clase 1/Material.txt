@@ -1,29 +1,3 @@
-LIBRERIAS---
-
-#include <nombreLibreria> //permite flujo de entrada y salida de datos
-#include <cmath> //operaciones matemáticas (potencia, coseno...)
-
-VARIABLES---
-
-INT: números enteros //(1, 2, 18, -52...)
-FLOAT: números decimales //(0.5, 3.14, -2.98...)
-CHAR: carácteres de 1 letra //('C', 'd', '$'...)
-STRING: carácteres de múltiples letras //("Hola mundo!", "Hello World!"...)
-BOOL: verdadero o falso //(true, false)
-
-OPERADORES MATEMATICOS---
-
-SUMA: ( + )
-RESTA: ( - )
-PRODUCTO: ( * )
-DIVISIÓN: ( / )
-RESTO: ( % )
-
-INTERACCION---
-
-COUT: Imprimir texto por pantalla //(out = salida)
-CIN: Ingresar carácteres por teclado //(in = entrada)
-
 EJERCICIOS
 
 1.- Solicite al usuario que ingrese un número entero, para luego
