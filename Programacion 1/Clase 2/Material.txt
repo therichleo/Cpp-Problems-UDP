@@ -30,9 +30,3 @@ la entrega en metros.
 Realice un programa que consulte por dos distancias, ocupando
 ambos métodos mencionados, y luego imprima por pantalla qué
 distancia es más corta.
-
-4.1. Se sabe que una persona alta, media y baja caminan en
-promedio a una velocidad de 6km/h, 5km/h, 4km/h, respectivamente.
-Utilizando el programa anterior, además de preguntar por ambas
-distancias, pregunte también por la estatura de la persona definida
-como alta, media o baja y calcule quién llegaría más rápido
