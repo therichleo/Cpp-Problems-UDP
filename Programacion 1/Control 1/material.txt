@@ -1,0 +1,69 @@
+1.	Se dice que si un chileno o chilena nace un día 18 o 19 (sin importar el mes) es un(a) patriota, pero si nace un 18 o 19 del mes de septiembre es un(a) súper patriota. 
+En cualquier otra fecha es un chileno normal.
+Construya una aplicación que lea una fecha de nacimiento en formato aaaammdd y señale si el chileno o chilena es:
+Normal, Patriota o Súper Patriota
+
+
+2.	El supermercado El Trauco vende sólo por docenas (12, 24, 36, etc), en cambio el supermercado el Programador vende al detalle (1 o más productos). 
+Considere que un grupo de alumnos quiere comprar 12 jugos de fresa. 
+Construya una aplicación que solicite los valores de ambos supermercados (por docena y al detalle) del jugo sabor fresa e indique qué alternativa es la más conveniente 
+para comprar la docena de jugos. 
+Su programa debe indicar cuánto pagará de menos la mejor alternativa.
+
+int main(){
+    int i, termino;
+    int surut = 12345789;
+    //reemplazar 12345789 por su rut sin digito verificador
+    termino = (surut % 1000) + 60;
+    for(i=1;i<=termino;i++){
+        if(i>5){
+            i=i*4;
+        }
+        cout<<"i vale"<<i*2<<endl;
+        if(i>30){
+            i=i+5;
+        }
+        cout<<"ahora i vale"<<i*5<<endl;
+    }
+}
+desarrollar traza
+
+1. Un corredor demora x segundos en dar la vuelta a la pista atlética, se sabe que cada 3 vueltas 
+su rendimiento decrece demorándose un 20% más del tiempo. En base a lo anterior se pide 
+construir un programa que lea el número de vueltas que dará y el tiempo que demora en la 
+primera vuelta, el programa debe imprimir el tiempo que demorará en da la n vueltas. 
+
+2. Construya una aplicación que lea un número e indique si es o no perfecto, un número es 
+perfecto si la sumatoria de sus divisores (excluyendo el mismo número), suma el mismo 
+número. Ejemplo, el número 6 es perfecto = 1+2+3 
+
+7. Construya una aplicación que lea el numerador y denominador de una fracción, su aplicación 
+debe simplificar si corresponde la fracción. Ejemplo: 
+Ingrese numerador: 6 
+Ingrese denominador: 8 
+Al simplificar 
+Numerador: 3 
+Denominador: 4 
+
+10. Construya una aplicación que lea una secuencia de números ascendentes, la secuencia 
+termina cuando se ingresa un número menor al anterior. Al finalizar debe imprimir: 
+a. Primer número 
+b. Último Número 
+c. Promedio 
+
+14. Construya una aplicación que evalúe la función -x2 + 100x entre el intervalo entero [0, 100], e 
+indique cuántos valores son: 
+a. Menores a 100 
+b. >100 y < 200 
+c. >= 200 y < 300 
+d. > 400
+
+19. En teoría de números, la conjetura de Collatz (Lothar Collazt, 1937) de un número (N) , entero 
+positivo se define de la siguiente manera: 
+Si el número es par se divide por 2, para obtener (N/2). 
+Si el número es impar se multiplica por 3 y se le suma 1, para obtener (3*N + 1) 
+El procedimiento se repite por los números resultantes hasta llegar a 1. 
+La conjetura indica que independiente el número con que se inicie, siempre se llegará a 1 y la 
+secuencia final 4, 2, 1 siempre aparecerá. También es conocida como conjetura 3N + 1. 
+Programe una aplicación que lea un número entero positivo e imprima la secuencia de Collatz 
+respectiva hasta llegar a 1
