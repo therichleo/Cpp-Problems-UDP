@@ -1,0 +1,52 @@
+Rut mágico
+ Su número de la suerte se calcula de la siguiente manera:
+ auxiliar = (Año de nacimiento + mes de nacimiento + día de
+ nacimiento) % 100. Si el valor auxiliar < 9 entonces: Número de la
+ suerte es auxiliar + 10. De lo contrario: Número de la suerte es el valor
+ auxiliar. Se pide, cree una aplicación que lea una fecha de nacimiento
+ en formato AAAAMMDD, un rut sin dígito verificador e indique si el
+ rut contiene o no su número de la suerte, en tal caso se dirá que el rut
+ es mágico, de lo contrario será normal.
+
+
+Números Espejo
+ Un reciente estudio reveló que los llamados números espejos poseen propiedades
+ matemáticas relevantes para el dominio de la computación cuántica . Un número
+ espejo, es un número compuesto de n cifras, donde n siempre es un número impar.
+ Además, sus cifras siguen un patrón de repetición donde el último dígito es igual al
+ primero, el penúltimo es igual al segundo, el antepenúltimo es igual al tercero y así
+ sucesivamente, siguiendo un patrón similar a que existiese un espejo en su cifra
+ central. Por ejemplo el numero 1237321 es un numero espejo.
+ Considere un numero de 9 dígitos ingresado por el usuario y valide si este cumple
+ con la propiedad espejo. Si cumple, debe imprimir por pantalla: ”Es espejo”, en
+ caso contrario deberá imprimir: ”No es espejo”.
+
+
+Conjetura de Collatz
+ La conjetura de collatz consiste en lo siguiente: Considere un número
+ "N" cualquiera, para este ejercicio los dos últimos digitos de su rut
+ (sin contar verificador). Si este número "N" es impar, deberá
+ multiplicarlo por 3 y sumarle 1. Si el número "N" es par, deberá
+ dividirlo por dos. Cree un programa que deberá hacer continuamente
+ estas operaciones hasta "N" tenga un valor igual a 1, donde entonces
+ imprimirá:
+ Número de veces que se multiplicó el número "N".
+ Número de veces que se dividió el número "N".
+
+
+Tío Lucho
+ El Tío Lucho tiene dos especialidades, vender paltas y tomates. Este
+ ha tenido un mes difícil y decide ir a la feria y no volver hasta que
+ haya vendido una cantidad de $500MIL o más. Considere que el Tío
+ Lucho vende cada kg de Palta a $5MIL y cada kg de tomate a $2MIL.
+ Cree un programa que permita al Tío Lucho registrar cada una de sus
+ ventas en Kg y le diga cuántos Kg de paltas y tomates le faltan vender
+ para llegar a su meta.
+
+
+Capicúa
+ Capicúa hace referencia a cualquier número de dos o más dígitos que
+ se lee igual de izquierda a derecha y de derecha a izquierda. Un
+ ejemplo de esto es el número 2992. Cree un programa que sea capaz
+ de leer un número "N" ingresado por teclado, y defina si es capicúa o
+ no.
