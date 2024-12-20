@@ -9,17 +9,19 @@ c. Promedio
 #include <iostream>
 using namespace std;
 int main(){
-    int numero, siguiente, total, ultimo, iteraciones=1;
+    int numero, total, ultimo, iteraciones=1;
     cout<<"Ingrese un numero: "; cin>>numero;
     total = numero;
-    cout<<"Ingrese otro numero: "; cin>>siguiente;
+    cout<<"Ingrese otro numero: "; cin>>ultimo;
     iteraciones++;
-    ultimo = siguiente;
-    total = total + siguiente;
+    total = total + ultimo;
     if(siguiente<numero){
         cout<<"primer numero: "<<numero<<endl;
         cout<<"ultimo numero: "<<ultimo<<endl;
         cout<<"promedio: "<<total/iteraciones;
+        return 0;
     }
-    while
+    while(siguiente>numero){
+        cout<<"Ingrese otro numero: "; cin>>ultimo;
+    }
 }
