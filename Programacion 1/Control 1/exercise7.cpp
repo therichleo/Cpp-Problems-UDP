@@ -9,3 +9,9 @@ secuencia final 4, 2, 1 siempre aparecerá. También es conocida como conjetura 
 Programe una aplicación que lea un número entero positivo e imprima la secuencia de Collatz 
 respectiva hasta llegar a 1
 */
+
+#include <iostream>
+using namespace std;
+int main(){
+    
+}
