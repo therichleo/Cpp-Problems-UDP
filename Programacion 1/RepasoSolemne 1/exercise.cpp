@@ -13,5 +13,19 @@ Rut mágico
 #include <iostream>
 using namespace std;
 int main(){
-
+    int fecha, rut, anho,mes,dia;
+    cout<<"Ingrese su fecha [AAAAMMDD]: "; cin>>fecha;
+    cout<<"Ingrese su rut: "; cin>>rut;
+    dia = fecha%100;
+    fecha = fecha/100;
+    mes = fecha%100;
+    anho = fecha/100;
+    int aux; 
+    aux = (anho+mes+dia)%100;
+    if(aux<9){
+        aux = aux + 10;
+        cout<<rut<<" es magico: "<< aux;
+        return 0;
+    }
+    cout<<"rut no es magico";
 }
