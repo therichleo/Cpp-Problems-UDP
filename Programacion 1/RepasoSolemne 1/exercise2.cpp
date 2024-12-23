@@ -10,5 +10,16 @@ Números Espejo
  Considere un numero de 9 dígitos ingresado por el usuario y valide si este cumple
  con la propiedad espejo. Si cumple, debe imprimir por pantalla: ”Es espejo”, en
  caso contrario deberá imprimir: ”No es espejo”.
-
 */
+#include<iostream>
+using namespace std
+int main(){
+    int n;
+    cout<<"Ingrese numero: "; cin>>n;
+    for(int i=1;)
+
+
+
+
+    int x[];
+}
