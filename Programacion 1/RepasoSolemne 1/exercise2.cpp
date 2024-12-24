@@ -11,26 +11,42 @@ Números Espejo
  con la propiedad espejo. Si cumple, debe imprimir por pantalla: ”Es espejo”, en
  caso contrario deberá imprimir: ”No es espejo”.
 */
-#include<iostream>
-using namespace std
-int main(){
-    int n, iterator=0 ,aux;
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Ingrese un numero: "; cin >> n;
+
+    int temp = n;
+    int numDigits = 0;
+
+    while (temp > 0) {
+        numDigits++;
+        temp = temp/10;
+    }
+
+    int digits[numDigits];
+    temp = n;
+
+    for (int i = numDigits - 1; i >= 0; i--) {
+        digits[i] = temp % 10;
+        temp /= 10;
+    }
+
+    bool isMirror = true;
+    for (int i = 0; i < numDigits / 2; i++) {
+        if (digits[i] != digits[numDigits - 1 - i]) {
+            isMirror = false;
+            break;
+        }
+    }
     
-    cout<<"Ingrese numero: "; cin>>n;
-    while(n%!=0){
-        
+    if (isMirror) {
+        cout << "Es espejo" << endl;
+    } else {
+        cout << "No es espejo" << endl;
     }
 
-    aux = n;
-
-    while(aux>0){
-        iterator++;
-        aux/10;
-    }
-
-    int x[iterator];
-
-    for(int i=0;i<iterator;i++){
-        x[i]=
-    }
+    return 0;
 }
