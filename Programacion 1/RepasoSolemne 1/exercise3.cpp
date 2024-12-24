@@ -9,5 +9,16 @@ Conjetura de Collatz
  imprimirá:
  Número de veces que se multiplicó el número "N".
  Número de veces que se dividió el número "N".
-
 */
+
+#include <iostream>
+using namespace std;
+int main(){
+    int n, multiplicaciones=0, divisiones=0;
+    cout<<"Ingrese N: "; cin>>n;
+    while(n>1){
+        if(n#3==0){
+
+        }
+    }
+}
