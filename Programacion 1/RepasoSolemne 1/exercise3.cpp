@@ -17,8 +17,14 @@ int main(){
     int n, multiplicaciones=0, divisiones=0;
     cout<<"Ingrese N: "; cin>>n;
     while(n>1){
-        if(n#3==0){
-
+        if(n%3==0){
+            n=(n*3)+1;
+            multiplicaciones++;
+        }
+        else{
+            n=n/2;
+            divisiones++;
         }
     }
+    cout<<"Numero de veces :"<<multiplicaciones<<dividisiones;
 }
