@@ -14,12 +14,23 @@ Números Espejo
 #include<iostream>
 using namespace std
 int main(){
-    int n;
+    int n, iterator=0 ,aux;
+    
     cout<<"Ingrese numero: "; cin>>n;
-    for(int i=1;)
+    while(n%!=0){
+        
+    }
 
+    aux = n;
 
+    while(aux>0){
+        iterator++;
+        aux/10;
+    }
 
+    int x[iterator];
 
-    int x[];
+    for(int i=0;i<iterator;i++){
+        x[i]=
+    }
 }
