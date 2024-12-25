@@ -33,10 +33,6 @@ su rendimiento decrece demorándose un 20% más del tiempo. En base a lo anterio
 construir un programa que lea el número de vueltas que dará y el tiempo que demora en la 
 primera vuelta, el programa debe imprimir el tiempo que demorará en da la n vueltas. 
 
-2. Construya una aplicación que lea un número e indique si es o no perfecto, un número es 
-perfecto si la sumatoria de sus divisores (excluyendo el mismo número), suma el mismo 
-número. Ejemplo, el número 6 es perfecto = 1+2+3 
-
 7. Construya una aplicación que lea el numerador y denominador de una fracción, su aplicación 
 debe simplificar si corresponde la fracción. Ejemplo: 
 Ingrese numerador: 6 
