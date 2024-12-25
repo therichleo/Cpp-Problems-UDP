@@ -1,0 +1,5 @@
+This space is dedicated to teaching from the most basic foundations of C++ to the knowledge necessary to confidently approach the subjects of Programming 1 and Programming 2 at Diego Portales University. My goal is to provide a solid foundation for students who are starting out in the world of programming and to strengthen the algorithmic thinking necessary to solve complex problems.
+
+I will accompany this learning with a YouTube channel where we will publish tutorials, practical exercises and examples explained step by step, encouraging the practical application of the concepts learned. In addition, we will include problem-solving sessions, advice on how to face common programming challenges, and clear explanations of key concepts such as data structures, algorithms and design patterns.
+
+With an accessible and didactic approach, this project seeks to empower students so that they can advance in their academic and professional careers. Here you will find complementary material, interactive exercises, and a space to resolve doubts and share knowledge. Together, we will make learning to program something not only useful, but also entertaining and rewarding.
